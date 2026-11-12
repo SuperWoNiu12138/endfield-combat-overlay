@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0",
-  "notes": "本次更新加入排轴、录轴、语音播报、配装备忘和自动更新，并支持 16:10 画面和窗口化。\n\n- 新增排轴：给每支队伍写好出手顺序，战斗中浮窗跟着提示下一步该按什么。认出队伍后自动套用；打乱了会自动对齐；重新开始挑战会回到第 1 步。\n- 排轴支持冷启动 / 热启动两种开场（开场时全员终结技已满就是热启动）、分段、循环、「随时放」的干员（比如骏卫），热启动打完可以接主轴或在开场里循环。\n- 下一步可以显示在卡片排上、干员头像上，或两样都要；每一步的备注有单独的小框。在编辑布局（Ctrl+F9）里选中排轴模块就能直接切换。\n- 新增录轴：按 Ctrl+F8（或排轴编辑器里的按钮）开始，打一遍就把认出的动作记成轴。战技能认出是谁放的。\n- 排轴编辑器支持复制、粘贴步骤（按住 Shift 选一串，Ctrl+C / Ctrl+V），能清空一页。排轴可以导出成一行排轴码，别人粘贴就能导入。\n- 新增语音播报：下一步变了就念出按键（「一」「E」「长二」），可以选播报哪些动作、音量和语音；也能放自己录的语音包。\n- 新增配装备忘：给每个队伍的每个干员记一句配装，按 Ctrl+F7 在浮窗上弹出，Ctrl+F6 换着看别的队伍。\n- 新增自动更新：有新版本时托盘菜单里会出现「更新到 vX」，点一下就下载安装。下载先走 GitHub，连不上或太慢再走国内的 CNB。\n- 新增开机自动启动，在设置里开关。\n- 支持 16:10 画面（原生全屏和上下黑边）和窗口化（会去掉标题栏和边框再识别）。\n\n### 安装和使用\n\n1. 下载下方附件中的 `endmin-terminal_0.2.0_x64-setup.exe`，双击并按照提示安装。已经装了旧版的直接覆盖安装，布局会保留。\n2. 从开始菜单启动「管理员终端」，管理员权限提示选择“是”，然后打开终末地。游戏请用无边框窗口或窗口化，独占全屏下浮窗盖不到游戏上。\n3. 按 `Ctrl+F9` 调整浮窗，再按一次锁定；`Ctrl+F10` 隐藏或显示浮窗，`Ctrl+F11` 切换布局，`Ctrl+F12` 单独隐藏排轴。排轴和配装从托盘菜单的「排轴」里打开。\n\n从这个版本起，以后的更新会自动提示，不用再手动下载。程序仅支持 Windows x64。",
-  "pub_date": "2026-11-10T12:45:08.455Z",
+  "version": "0.2.1",
+  "notes": "本次更新修复 Windows 10 和较早的 Windows 11 上浮窗完全不显示的问题。\n\n- 修复 Windows 10、Windows 11 24H2 以前的系统上截不到游戏画面，浮窗什么都不显示（编辑布局时能看到，进游戏就没了）。现在会按系统支持的情况自动调整截图设置。\n- Windows 10 上截图时，游戏窗口外会多一圈黄色细边框，这是系统强制显示的，关不掉，不影响使用。\n- 日志里会记下系统支持哪些截图功能；截图再失败，失败原因也会写进日志，方便排查。\n\n### 安装和使用\n\n1. 已经装了 0.2.0 的，托盘菜单里会出现「更新到 v0.2.1」，点一下就行。也可以下载下方附件中的 `endmin-terminal_0.2.1_x64-setup.exe` 覆盖安装，布局和排轴会保留。\n2. 从开始菜单启动「管理员终端」，管理员权限提示选择“是”，然后打开终末地。游戏用全屏或窗口化都可以。\n3. 按 `Ctrl+F9` 调整浮窗，再按一次锁定；`Ctrl+F10` 隐藏或显示浮窗，`Ctrl+F11` 切换布局，`Ctrl+F12` 单独隐藏排轴。排轴和配装从托盘菜单的「排轴」里打开。\n\n程序仅支持 Windows x64。",
+  "pub_date": "2026-11-12T12:30:30.728Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWhDT01YOFZwanh1akhnSm9pTlFrWFVFMmQ5VkQrTTk1UkRIdjRPUG1pUm9TZkh0N0pIRXp3cUswa2RKVFhQdWhQT0pzeTluaUliWSs3RHZVUEZPQnV0MXMwVUYrNmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE0NzA4CWZpbGU6566h55CG5ZGY57uI56uvXzAuMi4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjIuMAoxZXEzeGZ5bzJKWDlnY09kN1I3SXVmeURRcEFCbkFuNnZtMnRTUS81NUtzSkhJckRJSm1oSWFCM29jdytBN1U5dWErYlNQRVpVc3ZBakR0VGJXQnZDZz09Cg==",
-      "url": "https://cnb.cool/feifeifox-toolbox/endfield-combat-overlay/-/releases/download/v0.2.0/endmin-terminal_0.2.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWhDT01YOFZwanpobUt1VlNZQ1o3UUR3NWZvbFJLaEUxTnlleEFPQWxpa1ZVZU9BbnZocnhqSzN5bzBBK28zZ2pzdWJQR1Joc2ZER2QyVDRtNmFiUjRGYjVFSnFwZmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDg2NjMwCWZpbGU6566h55CG5ZGY57uI56uvXzAuMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjIuMQo0Q1o2dzZ5NDFrbU5USit5b0gydVVzZWRZbzlPekV4SWJ4RDVsK0MwOXJQd1ZOcVFJcVdMdjdBUEJubWlFQUhWZm9LQnE1SXF0WktVS0ttTHlvaElBZz09Cg==",
+      "url": "https://cnb.cool/feifeifox-toolbox/endfield-combat-overlay/-/releases/download/v0.2.1/endmin-terminal_0.2.1_x64-setup.exe"
     }
   }
 }
