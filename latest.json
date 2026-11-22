@@ -1,11 +1,11 @@
 {
-  "version": "0.2.2",
-  "notes": "本次更新支持 21:9 等宽屏画面和手柄操作。\n\n- 支持 21:9、32:9 等宽屏：原生全屏（头像贴左、战技贴右）和左右黑边两种画面都能认，自动挑对的那种。\n- 支持手柄操作：游戏换成手柄界面（头像和战技排成菱形）后，浮窗照常显示终结技、连携、技力、当前干员和技能镜像，键盘和手柄来回切也能跟上。\n  - 排轴暂不支持手柄：用手柄时排轴停在原处，换回键盘继续。\n  - 按住 LB 时游戏界面会散开，浮窗这时暂停更新，松开就恢复。\n- 修复 3440×1440 下终结技已经好了，浮窗却时而显示好了、时而显示没充的问题。\n\n感谢提供 21:9 和手柄实机录像的玩家。宽屏的左右黑边画面、手柄下的非四人队伍还没有实机核对过，遇到认不出的情况，请把日志和一张战斗截图发给我们。\n\n### 安装和使用\n\n1. 已经装了 0.2.1 的，托盘菜单里会出现「更新到 v0.2.2」，点一下就行。也可以下载下方附件中的 `endmin-terminal_0.2.2_x64-setup.exe` 覆盖安装，布局和排轴会保留。\n2. 从开始菜单启动「管理员终端」，管理员权限提示选择“是”，然后打开终末地。游戏用全屏或窗口化都可以。\n3. 按 `Ctrl+F9` 调整浮窗，再按一次锁定；`Ctrl+F10` 隐藏或显示浮窗，`Ctrl+F11` 切换布局，`Ctrl+F12` 单独隐藏排轴。排轴和配装从托盘菜单的「排轴」里打开。\n\n程序仅支持 Windows x64。",
-  "pub_date": "2026-11-20T06:47:58.163Z",
+  "version": "0.2.3",
+  "notes": "本次更新修复手柄操作时浮窗上的干员头像截歪的问题。\n\n- 修复用手柄时，浮窗「终结技 · 连携」模块里的干员头像偏到一边、只露出半张脸。手柄界面里的头像比键盘的小一圈，现在按手柄界面实际的位置和大小截取，和键盘时显示得一样。\n\n感谢反馈问题的玩家。\n\n### 安装和使用\n\n1. 已经装了 0.2.2 的，托盘菜单里会出现「更新到 v0.2.3」，点一下就行。也可以下载下方附件中的 `endmin-terminal_0.2.3_x64-setup.exe` 覆盖安装，布局和排轴会保留。\n2. 从开始菜单启动「管理员终端」，管理员权限提示选择“是”，然后打开终末地。游戏用全屏或窗口化都可以。\n3. 按 `Ctrl+F9` 调整浮窗，再按一次锁定；`Ctrl+F10` 隐藏或显示浮窗，`Ctrl+F11` 切换布局，`Ctrl+F12` 单独隐藏排轴。排轴和配装从托盘菜单的「排轴」里打开。\n\n程序仅支持 Windows x64。",
+  "pub_date": "2026-11-22T07:17:50.232Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWhDT01YOFZwajFsdmpGcUxUUHd2L3FabkFsT2o5bDdZZFhMWVZyT0RxaWtnNlgxWkgrbjZiL1Zza0ZmZWFQbDArUVVUTkp1SitGd0QwdVVLcWJMOW5kSnZPWmJhYXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTU3Mjc3CWZpbGU6566h55CG5ZGY57uI56uvXzAuMi4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjIuMgptWFA0SWxPamtrZ0NqVEFJdktVZmZ5MlhCb3dkTVhxNVV0Y0NwdjBLVEk2TGM5czlYRGNZb05EMHZUTm9URHJENjZsQUhJS1N4S2pXd3hFS1dsQURDdz09Cg==",
-      "url": "https://cnb.cool/feifeifox-toolbox/endfield-combat-overlay/-/releases/download/v0.2.2/endmin-terminal_0.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWhDT01YOFZwajFVbXRicmI5S21pelFFcHAycUNJdnNvbEtJZ0dQQmRZYUg4bldmVXY5MmtUaU5TZ2daZ1lzbmUzb0Y4WFFwSjdqTERjMVRDTU5Ib0Ivbk90SmpFZUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzMxODcwCWZpbGU6566h55CG5ZGY57uI56uvXzAuMi4zX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjIuMwpYcFRsZThNNWVlaGp5UVM4SzJzNTh1SmVyandLZUlLckR2OC9Namk0aEMvV09GOWRrZnBiSVdEVWZmS3BDdkxkaVl3amNxbnBialhlVVhDd256NENBUT09Cg==",
+      "url": "https://cnb.cool/feifeifox-toolbox/endfield-combat-overlay/-/releases/download/v0.2.3/endmin-terminal_0.2.3_x64-setup.exe"
     }
   }
 }
